@@ -1,0 +1,39 @@
+body{
+    
+    padding: 0;
+}
+#content{
+margin-left: 150px;
+
+box-shadow: 20px solid gray;
+ 
+
+}
+table, th, td{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.main-content{
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 20px solid gray;
+}
+.profile-img{
+    width: 30px;
+    border-radius: 50px;
+}
+
+table tr:nth-child(even){
+    background-color: lightgray;
+}
+.pagination{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.projects ,button{
+    padding: 8px;
+    border: 2px solid aqua;
+    border-radius: 5px;
+}
